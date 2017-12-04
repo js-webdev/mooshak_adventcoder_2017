@@ -37,7 +37,7 @@ Thursday
 
 ## Day 3 - Reusing candles
 
- On each of the four sundays before Christmas, Mr. MacThrifty is lighting candles. On the first Sunday it is one candle, on the second it is two candles, on the third three candles and on the fourth all four candles. Each sunday, any of four candles can be used, but it is not possible to switch between candles during the day. The candles will burn for a fixed time where Mr. MacThrifty holds a session of contemplation. The session time is the same on each sunday. Since Mr. MacThrifty is a bit... thrifty ..., he is going to reuse last years candles, that is four candles with various lengths.
+On each of the four sundays before Christmas, Mr. MacThrifty is lighting candles. On the first Sunday it is one candle, on the second it is two candles, on the third three candles and on the fourth all four candles. Each sunday, any of four candles can be used, but it is not possible to switch between candles during the day. The candles will burn for a fixed time where Mr. MacThrifty holds a session of contemplation. The session time is the same on each sunday. Since Mr. MacThrifty is a bit... thrifty ..., he is going to reuse last years candles, that is four candles with various lengths.
 
 ### Problem
 
@@ -46,10 +46,13 @@ Write a program that calculates the maximum session time for a given set of four
 ### Sample Input
 
 1 2 3 4
+
 1 1 1 1
+
 end
 
 ### Sample Output
 
 60
+
 20
