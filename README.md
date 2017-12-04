@@ -12,7 +12,7 @@ Santa greets you, greet back! Write a program that writes "Hello Santa Claus!" (
 
 ### Sample Output
 
-Hello Santa Claus!
+`Hello Santa Claus!`
 
 ## Day 2 - Weekdays in December
 
@@ -24,16 +24,20 @@ Implement a program that tells you the current weekday based on the date in Dece
 
 ### Sample Input
 
+```
 December 1
 December 16
 December 7
 end
+```
 
 ### Sample Output
 
+```
 Friday
 Saturday
 Thursday
+```
 
 ## Day 3 - Reusing candles
 
@@ -45,14 +49,14 @@ Write a program that calculates the maximum session time for a given set of four
 
 ### Sample Input
 
+```
 1 2 3 4
-
 1 1 1 1
-
 end
-
+```
 ### Sample Output
 
+```
 60
-
 20
+```
