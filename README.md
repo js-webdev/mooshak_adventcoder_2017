@@ -60,3 +60,43 @@ end
 60
 20
 ```
+
+## Day 4 - There's snow outside
+
+ Alice lives in an area with quite unstable weather. Sometimes it snows heavily, then the next day is sunshine, followed by rain. Alice often gets confused if there is snow outside (which means she has to get up earlier and shovel snow) or not (which means Alice can sleep in).
+
+### Problem
+
+Implement a program that tells Alice the estimated snow height based on the metereological history. Read several lines with the weather, which can be (their effects are given in brackets):
+
+heavy snowing (snow +10 cm)
+snowing (snow +5 cm)
+light rain (snow -3 cm)
+heavy rain (snow -8 cm)
+cloudy (+- 0 cm)
+sunshine (snow melts down by 1cm)
+
+The initial snow height is 0 cm. Your program shall output the snow height in cm after each day. When reading the word "end" the program shall terminate.
+
+### Sample Input
+
+```
+heavy snowing
+heavy rain
+snowing
+light rain
+cloudy
+sunshine
+end
+```
+
+### Sample Output
+
+```
+10
+2
+7
+4
+4
+3
+````
