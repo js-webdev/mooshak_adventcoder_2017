@@ -69,12 +69,14 @@ end
 
 Implement a program that tells Alice the estimated snow height based on the metereological history. Read several lines with the weather, which can be (their effects are given in brackets):
 
+```
 heavy snowing (snow +10 cm)
 snowing (snow +5 cm)
 light rain (snow -3 cm)
 heavy rain (snow -8 cm)
 cloudy (+- 0 cm)
 sunshine (snow melts down by 1cm)
+```
 
 The initial snow height is 0 cm. Your program shall output the snow height in cm after each day. When reading the word "end" the program shall terminate.
 
