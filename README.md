@@ -103,7 +103,7 @@ end
 3
 ```
 
-## Santagram Finder
+## Day 5 - Santagram Finder
 
 Santa is a big fan of anagrams. An anagram is a word or phrase that exactly reproduces the letters of a given phrase or word in another order. Santa even invented his own version of anagrams, the so called Santagrams, which are build by rearranging the letters of "SANTA CLAUS", for example into "LUCAS SATAN".
 
