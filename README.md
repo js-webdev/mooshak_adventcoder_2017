@@ -101,4 +101,25 @@ end
 4
 4
 3
-````
+```
+
+## Santagram Finder
+
+Santa is a big fan of anagrams. An anagram is a word or phrase that exactly reproduces the letters of a given phrase or word in another order. Santa even invented his own version of anagrams, the so called Santagrams, which are build by rearranging the letters of "SANTA CLAUS", for example into "LUCAS SATAN".
+
+### Problem
+
+Implement a program that finds Santagrams in a line of text. Whenever a sequence of words forms a Santagram, a line containing these words shall be written to the console in uppercase letters separated by spaces. Spaces, periods or commas separate words to be analyzed but should be ignored in the Santagram. Also the case should be ignored. In order to be a Santagram, the order of the letters must change, so the original "SANTA CLAUS" is not a Santagram. After processing one line of input, the programm shall terminate.
+
+### Input
+
+```
+Santa Claus thinks Satan Lucas is a class aunt.
+```
+
+### Output
+
+```
+SATAN LUCAS
+A CLASS AUNT
+```
